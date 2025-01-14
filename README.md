@@ -60,15 +60,18 @@ After training and evaluating the models, the XGBoost Regressor achieved the bes
 
 ## Installation
 To run this project, ensure you have the following libraries installed:
-- **Python** (>= 3.7)
-- **pandas**
-- **scikit-learn**
-- **xgboost**
-- **matplotlib**
+- **Python** (>= 3.10)
+- **pandas**==2.2.2
+- **scikit-learn**==1.5.1
+- **xgboost**==2.1.3
+- **matplotlib**==3.8.2
+- **seaborn**==0.13.2
+- **numpy**==1.26.2
+- **pyspark**==3.5.4
 
 Install the required dependencies:
 ```bash
-pip install pandas scikit-learn xgboost matplotlib
+pip install -r requirements.txt
 ```
 
 ---
